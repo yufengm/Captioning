@@ -7,7 +7,7 @@ This file contains detailed configuration on how to setup environment on the Dee
 ssh username@128.173.54.27
 ```
 
-**Directories**
+**Repositories**
 
 All required packages and shared files are under /opt/, which includes:
 
