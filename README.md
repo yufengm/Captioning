@@ -40,11 +40,11 @@ commands in your terminal after you login:
 ``` bash
 echo 'export PATH=/usr/local/cuda-9.0/bin:$PATH' » ~/.bashrc
 echo 'export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH' >> ~/.bashrc
-echo 'export PATH=/opt/anaconda/anaconda2/bin:$PATH'
+echo 'export PATH=/opt/anaconda/anaconda2/bin:$PATH' >> ~/.bashrc
 ```
 
 Also you'll need to setup CORENLP variable for python version of Stanford NLP:
 
 ``` bash
-echo 'export CORENLP_HOME=/opt/stanfordnlp/stanford-corenlp-full-2018-02-27/'
+echo 'export CORENLP_HOME=/opt/stanfordnlp/stanford-corenlp-full-2018-02-27/' >> ~/.bashrc
 ```
