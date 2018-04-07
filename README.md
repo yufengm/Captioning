@@ -2,6 +2,7 @@
 This file contains detailed configuration on how to setup environment on the Deep Learning server.
 
 **Directories**
+
 All required packages are installed under /opt/, which includes
 - /opt/anaconda/
 	-/opt/anaconda/anaconda2/: Anaconda python 2.7 
@@ -13,6 +14,7 @@ All required packages are installed under /opt/, which includes
 
 
 **Python and CUDA Setup**
+
 Currently, both CUDA-8.0 and CUDA-9.0 are installed in /usr/local/. 
 PyTorch and Tensorflow in Python 2.7 are built upon CUDA-9.0 (cudnn 7.1), 
 while in Python 3.6, they are built upon CUDA-8.0 (cudnn 6.0). 
