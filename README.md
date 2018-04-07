@@ -58,9 +58,9 @@ echo 'export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64:$LD_LIBRARY_PATH' >> ~/.b
 echo 'export PATH=/opt/anaconda/anaconda3/bin:$PATH' >> ~/.bashrc
 ```
 
-You may comment out ones that you don't want to use in ~/.bashrc in the future.
+You may comment out ones that you don't want to use in ~/.bashrc in the future. For example, if you want to use Python 2.7 combined with CUDA-9.0, you can comment the last two sections. Then logout and login again. Python 2.7 should be activated.
 
-Also you'll need to setup CORENLP variable for python version of Stanford NLP:
+Also you'll need to setup CORENLP_HOME variable for python wrapper of Stanford NLP:
 
 ``` bash
 # Python Stanford NLP environment variable CORENLP
