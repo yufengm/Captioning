@@ -10,7 +10,9 @@ This file contains detailed configuration on how to setup environment on the Dee
 All required packages are installed under /opt/, which includes
 
 - /opt/anaconda/
+
   -/opt/anaconda/anaconda2/: Anaconda python 2.7 
+  
   -/opt/anaconda/anaconda3/: Anaconda python 3.6
   
 - /opt/code/: current segmentation code on git.cs.vt.edu
